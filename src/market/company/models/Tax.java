@@ -29,4 +29,11 @@ public class Tax {
         this.value = value;
     }
 
+    @Override
+    public String toString() {
+        return "Tax{" +
+                "name='" + name + '\'' +
+                ", value=" + value +
+                '}';
+    }
 }

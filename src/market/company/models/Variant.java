@@ -8,14 +8,16 @@ public class Variant {
     private String color;
     private Object size;
     private String price;
+    private String currency;
 
     public Variant() { }
 
-    public Variant(Integer id, String color, Object size, String price) {
+    public Variant(Integer id, String color, Object size, String price, String currency) {
         this.id = id;
         this.color = color;
         this.size = size;
         this.price = price;
+        this.currency = currency;
     }
 
     public Integer getId() {
@@ -50,4 +52,18 @@ public class Variant {
         this.price = price;
     }
 
+    public String getCurrency() {
+        return currency;
+    }
+
+    @Override
+    public String toString() {
+        return "Variant{" +
+                "id=" + id +
+                ", color='" + color + '\'' +
+                ", size=" + size +
+                ", price='" + price + '\'' +
+                ", currency='" + currency + '\'' +
+                '}';
+    }
 }

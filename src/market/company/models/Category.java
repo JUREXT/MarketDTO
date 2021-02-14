@@ -8,10 +8,8 @@ public class Category implements Serializable {
 
     private Integer id;
     private String name;
-    private List<Product> products = null;
-    private List<Integer> childCategories = null;
-
-    public Category() {  }
+    private List<Product> products;
+    private List<Integer> childCategories;
 
     public Category(Integer id, String name, List<Product> products, List<Integer> childCategories) {
         this.id = id;
@@ -24,32 +22,16 @@ public class Category implements Serializable {
         return id;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
     public String getName() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public List<Product> getProducts() {
         return products;
     }
 
-    public void setProducts(List<Product> products) {
-        this.products = products;
-    }
-
     public List<Integer> getChildCategories() {
         return childCategories;
-    }
-
-    public void setChildCategories(List<Integer> childCategories) {
-        this.childCategories = childCategories;
     }
 
 }
