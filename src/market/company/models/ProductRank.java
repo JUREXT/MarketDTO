@@ -21,32 +21,25 @@ public class ProductRank {
         return id;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
     public Integer getViewCount() {
         return viewCount;
-    }
-
-    public void setViewCount(Integer viewCount) {
-        this.viewCount = viewCount;
     }
 
     public Integer getOrderCount() {
         return orderCount;
     }
 
-    public void setOrderCount(Integer orderCount) {
-        this.orderCount = orderCount;
-    }
-
     public Integer getShares() {
         return shares;
     }
 
-    public void setShares(Integer shares) {
-        this.shares = shares;
+    @Override
+    public String toString() {
+        return "ProductRank{" +
+                "id=" + id +
+                ", viewCount=" + viewCount +
+                ", orderCount=" + orderCount +
+                ", shares=" + shares +
+                '}';
     }
-
 }

@@ -27,6 +27,14 @@ public class Main {
                 }
             }
         }
+        for (Ranking ranking : data.getRankings()) {
+            System.out.println("Ranking: " + ranking.toString());
+            for (ProductRank productRank : ranking.getProducts()) {
+                System.out.println(" Product Rank: " + productRank.toString());
+
+            }
+        }
+
     }
 
 

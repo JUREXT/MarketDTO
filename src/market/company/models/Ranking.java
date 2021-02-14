@@ -5,29 +5,26 @@ import java.util.List;
 
 public class Ranking {
 
-
     private String ranking;
-    private List<ProductRank> products = null;
+    private List<ProductRank> productRanks;
 
     public Ranking(String ranking, List<ProductRank> products) {
         this.ranking = ranking;
-        this.products = products;
+        this.productRanks = products;
     }
 
     public String getRanking() {
         return ranking;
     }
 
-    public void setRanking(String ranking) {
-        this.ranking = ranking;
-    }
-
     public List<ProductRank> getProducts() {
-        return products;
+        return productRanks;
     }
 
-    public void setProducts(List<ProductRank> products) {
-        this.products = products;
+    @Override
+    public String toString() {
+        return "Ranking{" +
+                "ranking='" + ranking + '\'' +
+                '}';
     }
-
 }

@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="11f58ae5-61dc-4d84-9d6f-0639dfb39392" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MarketDTO/market/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MarketDTO/market/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/market/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/market/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/market/company/models/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/market/company/models/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/market/company/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/market/company/models/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/market/company/models/ResponseJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/market/company/models/ResponseJSON.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/market/company/models/Tax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/market/company/models/Tax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/market/company/models/Variant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/market/company/models/Variant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/market/company/models/ProductRank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/market/company/models/ProductRank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/market/company/models/Ranking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/market/company/models/Ranking.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,26 +59,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1613338740866">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1613340691897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613338740866" />
-    <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1613339737803">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613340691897" />
+    <state x="665" y="139" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1613340506178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613339737803" />
-    <state width="1877" height="347" key="GridCell.Tab.0.center" timestamp="1613339737802">
+    <state x="665" y="139" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613340506178" />
+    <state width="1877" height="303" key="GridCell.Tab.0.bottom" timestamp="1613339791318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613339737802" />
-    <state width="1877" height="347" key="GridCell.Tab.0.left" timestamp="1613339737802">
+    <state width="1877" height="303" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613339791318" />
+    <state width="1877" height="303" key="GridCell.Tab.0.center" timestamp="1613339791317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613339737802" />
-    <state width="1877" height="347" key="GridCell.Tab.0.right" timestamp="1613339737803">
+    <state width="1877" height="303" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613339791317" />
+    <state width="1877" height="303" key="GridCell.Tab.0.left" timestamp="1613339791317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613339737803" />
+    <state width="1877" height="303" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613339791317" />
+    <state width="1877" height="303" key="GridCell.Tab.0.right" timestamp="1613339791317">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="303" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613339791317" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1613338491090">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
